@@ -240,6 +240,7 @@ let digit1=50;
 
 document.writeln(!(digit<digit1 )+"\n");
 */
+/*
 let mmm=7;
 
 if(mmm %3== 0)
@@ -253,3 +254,39 @@ else if(mmm %3 == 1)
 
 else 
 document.writeln("incorrect");
+*/
+
+let num=prompt("submit your Mark");
+
+
+
+if(num < 0 || num > 100)
+document.writeln("Invalid");
+
+else if(num >=80 && num<=100)
+document.writeln("A+");
+
+else if(num >=70 && num <=79)
+document.writeln("A");
+
+else if(num>=60 && num<=69)
+document.writeln("A-");
+
+else if(num >=50 && num <= 59)
+document.writeln("B+");
+
+else if(num >=45 && unm <=49)
+document.writeln("B");
+
+else if(num >=40 && num <=44)
+document.writeln("B-");
+
+else if(num >=35 && num <=39)
+document.writeln("c");
+
+
+else if(num >=33 && num <=34)
+document.writeln("D");
+
+else
+document.writeln("F");
