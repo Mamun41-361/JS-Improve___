@@ -121,23 +121,23 @@ let area= (base*height) /2 ;
 
 document.writeln(area);
 
-*/
-/*
+
+
 let cel=parseFloat(prompt("inter celsius"))
 
 let cels=(cel-35)*(5/9);
 
 document.writeln("fahrenheit=" + cels);
 
-*/
-/*
+
+
 let cel=parseFloat(prompt("inter celsius : "));
 
 let cels=(cel*9/5)+32;
 
 document.writeln("fahrenheit= " + cels);
 
-*/
+
 
 /// DO This Problem Solv////////////////////////////////////
 
@@ -160,7 +160,7 @@ update console outpat to display the new caleulation
 
 /// Solv This______________________ ___________________________ ___
 
-
+*/
 
 
 let use=("john Done");
@@ -198,4 +198,3 @@ document.writeln("Remaining Balance : $" +bal+ "<br>")
 
 document.writeln("savings balance : $" + sav)
 
-*/
