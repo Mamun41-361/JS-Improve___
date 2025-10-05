@@ -203,7 +203,7 @@ document.writeln("savings balance : $" + sav)
 
 
 //relational operator///////////////////////////////////////
-
+/*
 let n1=30;
 let n2=45;
 
@@ -223,6 +223,16 @@ document.writeln(n5 <= n6);
 
 document.writeln(n5==n5);
  document.writeln(n6==n5);
+*/
+ ////logikal oparetor////////////////
+
+ let numb1=100;
+ let numb2=2332;
+ let numb3=321;
+
+ document.writeln( numb2>numb1 && numb2>numb3);
+
+
 
 
 
