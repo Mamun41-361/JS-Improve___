@@ -233,6 +233,6 @@ document.writeln(n5==n5);
  document.writeln( numb2>numb1 && numb2>numb3);
 
 
-
+document.writeln(numb1>numb2 || numb1>numb3 || numb1<numb2 );
 
 
