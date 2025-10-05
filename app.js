@@ -233,6 +233,9 @@ document.writeln(n5==n5);
  document.writeln( numb2>numb1 && numb2>numb3);
 
 
-document.writeln(numb1>numb2 || numb1>numb3 || numb1<numb2 );
+document.writeln((numb1>numb2 || numb1>numb3 || numb1<numb2 ) + "<br>" );
 
+let digit=45;
+let digit1=50;
 
+document.writeln(!(digit<digit1 )+"\n");
