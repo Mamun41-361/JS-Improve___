@@ -225,7 +225,7 @@ document.writeln(n5==n5);
  document.writeln(n6==n5);
 */
  ////logikal oparetor////////////////
-
+/*
  let numb1=100;
  let numb2=2332;
  let numb3=321;
@@ -239,3 +239,17 @@ let digit=45;
 let digit1=50;
 
 document.writeln(!(digit<digit1 )+"\n");
+*/
+let mmm=7;
+
+if(mmm %3== 0)
+document.writeln("true");
+
+else if(mmm %3 == 1)
+document.writeln("false");
+
+else if(mmm %3 == 1)
+    document.writeln("right");
+
+else 
+document.writeln("incorrect");
