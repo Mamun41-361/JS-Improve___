@@ -161,7 +161,7 @@ update console outpat to display the new caleulation
 /// Solv This______________________ ___________________________ ___
 
 */
-
+/*
 
 let use=("john Done");
 
@@ -197,4 +197,32 @@ document.writeln( " All expenses : $" + all + "<br>");
 document.writeln("Remaining Balance : $" +bal+ "<br>")
 
 document.writeln("savings balance : $" + sav)
+
+*/
+
+
+
+//relational operator///////////////////////////////////////
+
+let n1=30;
+let n2=45;
+
+document.writeln(n1 > n2);
+
+let n3=30;
+let n4=45;
+
+document.writeln(n1 >= n2);
+
+let n5=30;
+let n6=55;
+
+document.writeln(n1 < n2);  
+
+document.writeln(n5 <= n6);
+
+document.writeln(n5==n5);
+ document.writeln(n6==n5);
+
+
 
