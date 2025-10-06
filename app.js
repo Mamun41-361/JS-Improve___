@@ -431,7 +431,7 @@ switch(number){
   break;
 }
   */
- let number=prompt("any number ");
+ let number=prompt("any laters ");
 
 switch(number){
   case"0":
