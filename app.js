@@ -454,3 +454,4 @@ switch(number){
   break;
 }
   */
+ let digits=prompt("nay digit");
