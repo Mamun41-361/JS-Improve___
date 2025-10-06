@@ -438,8 +438,8 @@ switch(number){
   document.writeln("vowel");
   break;
 
-  case"1":
-  document.writeln("one");
+  case"e":
+  document.writeln("vowel");
   break;
 
   case"2":
