@@ -431,7 +431,7 @@ switch(number){
   break;
 }
   */
- let number=prompt("any laters ");
+ let number=prompt("any laters");
 
  number=number.toLowerCase();
 
