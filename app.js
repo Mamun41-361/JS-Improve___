@@ -484,3 +484,13 @@ document.writeln("riyan" + "");
 document.writeln(R+ "");
 
  }
+
+ let nm=0;
+ 
+ for ( let x=5; x<=15; x=x+1){
+
+  nm=nm+x;
+
+  document.writeln(nm + "");
+
+ }
