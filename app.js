@@ -455,4 +455,4 @@ switch(number){
 }
   */
  let digits=prompt("nay digit");
- digits=
+ digits=digits.toLowerCase();
