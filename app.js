@@ -418,6 +418,10 @@ switch(number){
   document.writeln("one");
   break;
 
+  case"2":
+  document.writeln("");
+  break;
+
   default:
   document.writeln("invalid");
   break;
