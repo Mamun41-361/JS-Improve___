@@ -255,7 +255,7 @@ else if(mmm %3 == 1)
 else 
 document.writeln("incorrect");
 */
-
+/*
 let num=prompt("submit your Mark");
 
 
@@ -422,7 +422,7 @@ switch(number){
   document.writeln("two");
   break;
 
-  
+
   default:
   document.writeln("invalid");
   break;
