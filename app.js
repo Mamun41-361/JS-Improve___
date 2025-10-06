@@ -433,6 +433,8 @@ switch(number){
   */
  let number=prompt("any laters ");
 
+ number=number.toLowerCase();
+
 switch(number){
   case"a":
   document.writeln("vowel");
