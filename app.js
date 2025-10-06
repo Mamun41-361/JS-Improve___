@@ -410,7 +410,7 @@ console.log(classifyAlphabets(text));
 //input a letter and it is vowel or consonant using switch-------------------
 
 
-let number=prompt("any ")
+let number=prompt("any number ");
 
 switch(number){
   case"0":
