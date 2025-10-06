@@ -473,7 +473,7 @@ switch(number){
 
  }
             */
-
+/*
  for(let R = 0; R<=50; R=R+1){
 document.writeln("riyan" + "");
 
@@ -484,15 +484,16 @@ document.writeln("riyan" + "");
 document.writeln(R+ "");
 
  }
-let m=parent(prompt("fast number"));
-let n=parent(prompt("second Number"));
- let nm=0;
+ */
+let m=parseInt(prompt("fast number"));
+let n=parseInt(prompt("second Number"));
+ let hh=0;
  
  for ( let x=m; x<=n; x=x+1){
 
-  nm=nm+x;
+  nm=hh+x;
 
-  document.writeln(nm + "<br>");
+  
 
  }
-document.writeln(nm);
+document.writeln(hh);
