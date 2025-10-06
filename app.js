@@ -485,9 +485,10 @@ document.writeln(R+ "");
 
  }
 let m=parent(prompt("fast number"));
+let n=parent(prompt("second Number"));
  let nm=0;
  
- for ( let x=5; x<=15; x=x+1){
+ for ( let x=m; x<=n; x=x+1){
 
   nm=nm+x;
 
