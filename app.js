@@ -419,9 +419,10 @@ switch(number){
   break;
 
   case"2":
-  document.writeln("");
+  document.writeln("two");
   break;
 
+  
   default:
   document.writeln("invalid");
   break;
