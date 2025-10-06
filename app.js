@@ -409,6 +409,9 @@ console.log(classifyAlphabets(text));
 
 //input a letter and it is vowel or consonant using switch-------------------
 
+
+let number=
+
 switch(number){
   case"0":
   document.writeln("zero");
