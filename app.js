@@ -457,8 +457,17 @@ switch(number){
  let digits=prompt("nay digit");
  digits=digits.toLowerCase();
 
- witch(digits){
+ switch (digits) {
 
-  
+  case "a" :
+    case "e" :
+      case "i":
+        case "o":
+          case "u":
+            document.writeln("vowel");
+            break ;
+
+
+
 
  }
