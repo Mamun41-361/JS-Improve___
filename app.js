@@ -491,6 +491,6 @@ document.writeln(R+ "");
 
   nm=nm+x;
 
-  document.writeln(nm + "");
+  document.writeln(nm + "<br>");
 
  }
