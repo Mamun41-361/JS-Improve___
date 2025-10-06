@@ -434,8 +434,8 @@ switch(number){
  let number=prompt("any laters ");
 
 switch(number){
-  case"0":
-  document.writeln("zero");
+  case"a":
+  document.writeln("vowel");
   break;
 
   case"1":
