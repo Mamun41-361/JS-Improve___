@@ -480,7 +480,7 @@ document.writeln("riyan" + "");
  }
 
  
- for(let R = 0; R<=1000; R=R+3){
+ for(let R = 100; R<=0; R=R-3){
 document.writeln(R+ "");
 
  }
