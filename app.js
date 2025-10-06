@@ -430,7 +430,7 @@ switch(number){
   document.writeln("invalid");
   break;
 }
-  */
+  */ /*
  let number=prompt("any laters");
 
  number=number.toLowerCase();
@@ -453,3 +453,4 @@ switch(number){
   document.writeln("invalid");
   break;
 }
+  */
