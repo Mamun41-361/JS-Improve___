@@ -409,8 +409,29 @@ console.log(classifyAlphabets(text));
 
 //input a letter and it is vowel or consonant using switch-------------------
 
-
+/*
 let number=prompt("any number ");
+
+switch(number){
+  case"0":
+  document.writeln("zero");
+  break;
+
+  case"1":
+  document.writeln("one");
+  break;
+
+  case"2":
+  document.writeln("two");
+  break;
+
+
+  default:
+  document.writeln("invalid");
+  break;
+}
+  */
+ let number=prompt("any number ");
 
 switch(number){
   case"0":
