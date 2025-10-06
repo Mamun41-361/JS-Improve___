@@ -454,6 +454,7 @@ switch(number){
   break;
 }
   */
+ /*
  let digits=prompt("nay digit");
  digits=digits.toLowerCase();
 
@@ -471,3 +472,11 @@ switch(number){
 
 
  }
+            */
+
+ for(let R = 0; R<=50; R=R+1){
+document.writeln("riyan");
+
+ }
+
+ 
