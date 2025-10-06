@@ -479,7 +479,8 @@ document.writeln("riyan" + "");
 
  }
 
- for(let R = 0; R<=50; R=R+1){
-document.writeln(R+ ".riyan");
+ 
+ for(let R = 0; R<=1000; R=R+1){
+document.writeln(R+ "");
 
  }
