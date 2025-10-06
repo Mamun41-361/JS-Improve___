@@ -484,7 +484,7 @@ document.writeln("riyan" + "");
 document.writeln(R+ "");
 
  }
-
+let m=parent(prompt("fast number"));
  let nm=0;
  
  for ( let x=5; x<=15; x=x+1){
