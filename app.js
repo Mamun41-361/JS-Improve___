@@ -442,8 +442,8 @@ switch(number){
   document.writeln("vowel");
   break;
 
-  case"2":
-  document.writeln("two");
+  case"i":
+  document.writeln("");
   break;
 
 
