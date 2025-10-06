@@ -290,3 +290,119 @@ document.writeln("D");
 
 else
 document.writeln("F");
+
+
+
+/*
+
+আপনি JavaScript (বা TypeScript) দিয়ে হয়তো নিচের মতোভাবে করতে পারবেন — আমি এখানে দুই ধাপে আলফাবেট ও ভাওয়েল/কনসোনেন্ট চিনে বের করার একটি উদাহরণ দিচ্ছি:
+
+ধাপ ১: একটি স্ট্রিং থেকে আলফাবেট (অক্ষর) গুলো নির্বাচন করা
+
+ধরা যাক, আপনার কাছে একটি স্ট্রিং আছে, যেখানে অনেক ধরনের ক্যারেক্টার আছে (সংখ্যা, স্পেস, বিশেষ চিহ্ন ইত্যাদি)। আপনি শুধু “a–z” বা “A–Z” ক্যারেক্টারগুলো নিতে চান। আপনি নিচের মতো RegExp ব্যবহার করতে পারেন:
+
+function extractAlphabets(str) {
+  // গ্লোবাল ওঃকেস ইনসেন্সিটিভ (g,i) ফ্ল্যাগ দিয়ে সব অক্ষরগুলো পাবো
+  // [A-Za-z] — শুধু ইংরেজি বড় ও ছোট অক্ষর
+  const matches = str.match(/[A-Za-z]/g);
+  if (matches) {
+    return matches.join("");  // একটি স্ট্রিং হবে, যেখানে শুধু অক্ষর আছে
+  } else {
+    return "";  // যদি কোনো অক্ষর না থাকে
+  }
+}
+
+// উদাহরণ:
+const mixed = "H3llo, W0rld!123";
+const alphabets = extractAlphabets(mixed);
+console.log(alphabets);  // “HlloWrld”
+
+
+বিস্তারিত:
+
+str.match(/[A-Za-z]/g) — এটি একটি অ্যারে রিটার্ন করে, যেখানে স্ট্রিংয়ের প্রতিটি অক্ষর যদি [A-Za-z] প্যাটার্নে মেলে, তা থাকবে।
+
+matches.join("") — অ্যারেটির সব উপাদান (অক্ষর) একটি স্ট্রিংয়ে মিলান করবে।
+
+ধাপ ২: প্রতিটি অক্ষর ভাওয়েল (vowel) নাকি কনসোনেন্ট (consonant) তা নির্ধারণ করা
+
+একটি অক্ষর ভাওয়েল কি না, সেটা চেক করার জন্য একটি সেট বা অ্যারে ব্যবহার করা যায়। উদাহরণস্বরূপ:
+
+function isVowel(ch) {
+  // ছোট অক্ষরেই কাজ করি — যদি বড় অক্ষর আসে, তাহলে toLowerCase() দিয়ে কাজ হবে
+  const lower = ch.toLowerCase();
+  return ["a", "e", "i", "o", "u"].includes(lower);
+}
+
+function classifyAlphabets(str) {
+  const alphabets = extractAlphabets(str);
+  const result = [];
+  for (const ch of alphabets) {
+    if (isVowel(ch)) {
+      result.push({ char: ch, type: "vowel" });
+    } else {
+      result.push({ char: ch, type: "consonant" });
+    }
+  }
+  return result;
+}
+
+// উদাহরণ:
+const mixed2 = "AbCdE123XyZ!";
+const classified = classifyAlphabets(mixed2);
+console.log(classified);
+// ফলাফল হবে কিছুটা এইভাবে:
+// [
+//   { char: "A", type: "vowel" },
+//   { char: "b", type: "consonant" },
+//   { char: "C", type: "consonant" },
+//   { char: "d", type: "consonant" },
+//   { char: "E", type: "vowel" },
+//   { char: "X", type: "consonant" },
+//   { char: "y", type: "consonant" },
+//   { char: "Z", type: "consonant" }
+// ]
+
+একসাথে একটি কোড ব্লকে সমন্বয়
+
+নিচে পুরো কোড একত্রে:
+
+function extractAlphabets(str) {
+  const matches = str.match(/[A-Za-z]/g);
+  return matches ? matches.join("") : "";
+}
+
+function isVowel(ch) {
+  const lower = ch.toLowerCase();
+  return ["a","e","i","o","u"].includes(lower);
+}
+
+function classifyAlphabets(str) {
+  const alphabets = extractAlphabets(str);
+  const result = [];
+  for (const ch of alphabets) {
+    result.push({
+      char: ch,
+      type: isVowel(ch) ? "vowel" : "consonant"
+    });
+  }
+  return result;
+}
+
+// ব্যবহার:
+const text = "Hello, OpenAI 2025!";
+console.log(classifyAlphabets(text));
+
+কিছু বাড়তি দিক
+
+যদি আপনি ইংরেজির পাশাপাশি অন্য ভাষার অক্ষর (যেমন বাংলা) ও বিবেচনায় নিতে চান, তাহলে RegExp ও ভাওয়েল সেট পরিবর্তন করতে হবে।
+
+যদি স্ট্রিং খুব বড় হয়, performance বিবেচনা করতে হবে — তবে সাধারণ ক্ষেত্রে এই পন্থা ঠিকঠাক চলে।
+
+ফলাফল আপনি চাইলে একটি ম্যাপ (object) বা স্ট্রিং আকারেও নিতে পারেন, যেমন “A: vowel, B: consonant, …” ইত্যাদি
+
+
+আপনি যদি চান, আমি একটি **ব্রাউজার পরিবেশে রান করানো ছোট একটি HTML+JS উদাহরণ তৈরি করে দিতে পারি (যাতে আপনি সরাসরি ওয়েব পেজে দেখে চালাতে পারেন) — কি করবেন?
+
+*/
+/////////////////////////////////////////////////////////////////////
