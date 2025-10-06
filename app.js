@@ -456,3 +456,9 @@ switch(number){
   */
  let digits=prompt("nay digit");
  digits=digits.toLowerCase();
+
+ witch(digits){
+
+  
+
+ }
