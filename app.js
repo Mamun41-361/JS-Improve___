@@ -443,7 +443,7 @@ switch(number){
   break;
 
   case"i":
-  document.writeln("");
+  document.writeln("vowel");
   break;
 
 
