@@ -406,3 +406,19 @@ console.log(classifyAlphabets(text));
 
 */
 /////////////////////////////////////////////////////////////////////
+
+//input a letter and it is vowel or consonant using switch-------------------
+
+switch(number){
+  case"0":
+  document.writeln("zero");
+  break;
+
+  case"1":
+  document.writeln("one");
+  break;
+
+  default:
+  document.writeln("invalid");
+  break;
+}
