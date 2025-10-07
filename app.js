@@ -516,7 +516,7 @@ document.writeln(hh);
 let r=2;
 let s=0;
 while(r<=100){
-  
+  s=s+r;
   document.writeln(s);
-   s=s+2;
+   r=r+1;
 }
