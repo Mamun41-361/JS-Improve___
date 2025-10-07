@@ -527,7 +527,7 @@ let t=10;
 let s=0;
 while(t<=1000){
   s=s+t;
-  document.writeln(s + "<br>");
+  document.writeln(prompt(s + ));
   t=t+10;
 }
 document.writeln(s);
