@@ -524,7 +524,7 @@ document.writeln(s);
 */
 
 let t=1;
-let s=0;
+ let s=parseInt(prompt("fast number"));
 while(t<=10){
   s=s+t;
   document.writeln(s );
