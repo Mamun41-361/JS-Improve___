@@ -535,13 +535,14 @@ while(t<=0){
 document.writeln(total);
 */
 
-let k=1;
+let k=0;
+
 let g=0;
 while(k<=100){
 
  if(k % 3 == 0  &&k % 5 == 0) {
       g=g+k;
-      document.writeln(k + "<br>");
+      document.writeln(k );
  }
   k=k+1;
 
@@ -550,4 +551,4 @@ while(k<=100){
  //document.writeln(k);
   //k=k+3;
 }
-document.writeln(g);
+document.writeln(" <br> " + g);
