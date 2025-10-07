@@ -524,8 +524,10 @@ document.writeln(s);
 */
 
 let t=10;
-
+let s=0;
 while(t<=1000){
-  document.writeln(t);
+  s=s+t;
+  document.writeln(s + "<br>");
   t=t+10;
 }
+document.writeln(s);
