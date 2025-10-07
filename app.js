@@ -523,11 +523,11 @@ while(r<=100){
 document.writeln(s);
 */
 
-let t=10;
+let t=1;
 let s=0;
 while(t<=10){
   s=s+t;
-  document.writeln(prompt(s ));
-  t=t+10;
+  document.writeln(s );
+  t=t+1;
 }
 document.writeln(s);
