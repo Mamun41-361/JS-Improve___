@@ -541,6 +541,7 @@ while(k<=100){
 
  if(k % 3 == 0  &&k % 5 == 0) {
       g=g+k;
+      document.writeln(k + "<br>");
  }
   k=k+1;
 
