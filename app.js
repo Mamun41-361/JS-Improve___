@@ -555,11 +555,9 @@ document.writeln(" <br> " + g);
 */
 for(i=1; i<=100; i=i+1){
 //document.writeln(i);
-  if(i==15){
+  if(i%5==0){
     continue;
   }
-  else(i==15){
-    break;
-  }
+  
   document.writeln(i);
 }
