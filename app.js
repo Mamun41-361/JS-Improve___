@@ -485,6 +485,7 @@ document.writeln(R+ "");
 
  }
  */
+/*
 let m=parseInt(prompt("fast number"));
 let n=parseInt(prompt("second Number"));
  let hh=0;
@@ -492,6 +493,19 @@ let n=parseInt(prompt("second Number"));
  for ( let x=m; x<=n; x= x+1){
 
   hh=m/n;
+
+  
+
+ }
+document.writeln(hh);
+*/
+let m=parseInt(prompt("fast number"));
+let n=parseInt(prompt("second Number"));
+ let hh=0;
+ 
+ for ( let x=m; x<=n; x= x+1){
+
+  hh=m*n;
 
   
 
