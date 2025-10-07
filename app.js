@@ -498,7 +498,7 @@ let n=parseInt(prompt("second Number"));
 
  }
 document.writeln(hh);
-*/
+
 let m=parseInt(prompt("fast number"));
 let n=parseInt(prompt("second Number"));
  let hh=0;
@@ -511,3 +511,4 @@ let n=parseInt(prompt("second Number"));
 
  }
 document.writeln(hh);
+*/
