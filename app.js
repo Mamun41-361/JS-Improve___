@@ -522,7 +522,7 @@ while(r<=100){
 }
 document.writeln(s);
 */
-
+/*
 let t=0;
  let s=parseInt(prompt("fast number"));
  let h=parseInt(prompt("second number"));
@@ -533,5 +533,20 @@ while(t<=0){
   t=t+1;
 }
 document.writeln(total);
+*/
+
+let k=1;
+let g=0;
+while(k<=1000){
+
+ if(k % 3 == 0  &&  k % 5 == 0) {
+  g=g+k;
+ }
+  k=k+1;
 
 
+
+ //document.writeln(k);
+  //k=k+3;
+}
+document.writeln(g);
