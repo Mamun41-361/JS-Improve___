@@ -525,9 +525,9 @@ document.writeln(s);
 
 let t=10;
 let s=0;
-while(t<=1000){
+while(t<=10){
   s=s+t;
-  document.writeln(prompt(s + ));
+  document.writeln(prompt(s ));
   t=t+10;
 }
 document.writeln(s);
