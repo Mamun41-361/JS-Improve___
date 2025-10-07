@@ -491,7 +491,7 @@ let n=parseInt(prompt("second Number"));
  
  for ( let x=m; x<=n; x= x+1){
 
-  hh=m*n;
+  hh=m/n;
 
   
 
