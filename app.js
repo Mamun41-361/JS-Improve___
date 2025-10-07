@@ -537,10 +537,10 @@ document.writeln(total);
 
 let k=1;
 let g=0;
-while(k<=1000){
+while(k<=100){
 
- if(k % 3 == 0  &&  k % 5 == 0) {
-  g=g+k;
+ if(k % 3 == 0  &&k % 5 == 0) {
+      g=g+k;
  }
   k=k+1;
 
