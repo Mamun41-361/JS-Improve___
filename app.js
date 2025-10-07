@@ -534,7 +534,7 @@ while(t<=0){
 }
 document.writeln(total);
 */
-
+/*
 let k=0;
 
 let g=0;
@@ -552,3 +552,4 @@ while(k<=100){
   //k=k+3;
 }
 document.writeln(" <br> " + g);
+*/
