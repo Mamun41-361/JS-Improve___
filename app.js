@@ -523,11 +523,13 @@ while(r<=100){
 document.writeln(s);
 */
 
-let t=1;
+let t=0;
  let s=parseInt(prompt("fast number"));
-while(t<=10){
-  s=s+t;
-  document.writeln(s );
+ let h=parseInt(prompt("second number"));
+    let  total=0;
+while(t<=0){
+        total=s+h;
+ // document.writeln(total );
   t=t+1;
 }
-document.writeln(s);
+document.writeln(total);
