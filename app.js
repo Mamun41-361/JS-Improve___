@@ -513,9 +513,10 @@ let n=parseInt(prompt("second Number"));
 document.writeln(hh);
 */
 
-let r=0;
+let r=2;
+let s=0;
 while(r<=100){
   
-  document.writeln(r);
-   r=r+2;
+  document.writeln(s);
+   s=s+2;
 }
