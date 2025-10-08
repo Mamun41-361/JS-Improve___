@@ -557,12 +557,12 @@ document.writeln(" <br> " + g);
 for(i=1; i<=100; i=i+1){
 //document.writeln(i);
   if(i%5==0){
-    continue;
+    36tinue;Q
   }
   
   document.writeln(i);
 }
-*/
+
 ///////////////////function use//////////////////////////
 //////perimeter function--------------------------------
 function riyan(num1,num2){
@@ -579,3 +579,9 @@ function name(number){
 
 name(5)
 /////////////////////
+*/
+(function display(names){
+  
+  document.writeln(names);
+  console.log(names);
+})(" 956 AWE79287357");
