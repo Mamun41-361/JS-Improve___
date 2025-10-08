@@ -563,3 +563,7 @@ for(i=1; i<=100; i=i+1){
   document.writeln(i);
 }
 */
+function riyan(num1,num2){
+  let result=num1+num2;
+  
+}
