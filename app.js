@@ -553,6 +553,7 @@ while(k<=100){
 }
 document.writeln(" <br> " + g);
 */
+/*
 for(i=1; i<=100; i=i+1){
 //document.writeln(i);
   if(i%5==0){
@@ -561,3 +562,4 @@ for(i=1; i<=100; i=i+1){
   
   document.writeln(i);
 }
+*/
