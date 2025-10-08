@@ -563,8 +563,19 @@ for(i=1; i<=100; i=i+1){
   document.writeln(i);
 }
 */
+///////////////////function use//////////////////////////
+//////perimeter function--------------------------------
 function riyan(num1,num2){
   let result=num1+num2;
-  document.writeln("result="+result);
+  document.writeln("result="+result + " <br> ");
 }
 riyan(4,124796)
+
+///////////////////////////////
+function name(number){
+  let digit=number*number;
+  document.writeln(digit + "<br>");
+}
+
+name(5)
+/////////////////////
