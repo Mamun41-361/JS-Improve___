@@ -580,8 +580,8 @@ function name(number){
 name(5)
 /////////////////////
 */
-(function display(names){
+(function display(names , R){
   
-  document.writeln(names);
-  console.log(names);
-})(" 956 AWE79287357");
+  document.writeln(names +"<BR>" + R);
+  
+})(" 956 AWE79287357" , "DSA" );
