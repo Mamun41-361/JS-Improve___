@@ -565,5 +565,6 @@ for(i=1; i<=100; i=i+1){
 */
 function riyan(num1,num2){
   let result=num1+num2;
-  
+  document.writeln("result="+result);
 }
+riyan(4,124796)
