@@ -586,7 +586,7 @@ name(5)
   
 })(" 956 AWE79287357" , "DSA" );
 */
-
+/*
 let riyan=function riayn2(z){
   let total=z+z;
 console.log(z);
@@ -600,3 +600,10 @@ console.log(riyanx.length);
 console.log(riyanx);
 riyanx.pop([riyanx[0]]);
 console.log(riyanx);
+*/
+
+let gg=new Array();
+for (for i=0; i<5; i++){
+  gg[i]=
+
+}
