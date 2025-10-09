@@ -593,3 +593,5 @@ console.log(z);
 
 }
 riyan();
+let riyanx=["riyan","mamun"];
+console.log(riyanx);
