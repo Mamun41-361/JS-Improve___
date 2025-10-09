@@ -596,3 +596,4 @@ riyan();
 let riyanx=["riyan","mamun"];
 console.log(riyanx);
 riyanx.push("tonni");
+console.log(riyanx.length);
