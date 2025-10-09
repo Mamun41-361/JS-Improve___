@@ -603,7 +603,10 @@ console.log(riyanx);
 */
 
 let gg= new Array(10,19,12,12,12);
+
 for ( let i=0; i<5; i++){
   console.log(gg[i]);
+
+  
 
 }
