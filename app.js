@@ -602,12 +602,13 @@ riyanx.pop([riyanx[0]]);
 console.log(riyanx);
 */
 
-let gg= new Array(43,34,34,23,323);
+let gg= new Array();
  let sum=0;
-for ( let i=0; i<5; i++){
+for ( let i=0; i<2; i++){
    // sum=sum+sum[i];
-  console.log(gg[i]);
+  //console.log(parseInt(prompt(gg())));
 //gg[i]=parseInt(prompt(i));
+gg[i]=parseInt(prompt());
 sum=sum+gg[i];
   
 
