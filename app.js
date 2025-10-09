@@ -579,9 +579,17 @@ function name(number){
 
 name(5)
 /////////////////////
-*/
+
 (function display(names , R){
   
   document.writeln(names +"<BR>" + R);
   
 })(" 956 AWE79287357" , "DSA" );
+*/
+
+let riyan=function riayn2(z){
+  let total=z+z;
+console.log(z);
+
+}
+riyan();
