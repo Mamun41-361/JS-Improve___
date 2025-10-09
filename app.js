@@ -602,10 +602,12 @@ riyanx.pop([riyanx[0]]);
 console.log(riyanx);
 */
 
-let gg= new Array(10,19,12,12,12);
-
+let gg= new Array();
+ let sum=0;
 for ( let i=0; i<5; i++){
-  console.log(gg[i]);
+    sum=sum+sum[i];
+  //console.log(parseInt(prompt(gg[sum])));
+//gg[i]=parseInt(prompt(i));
 
   
 
