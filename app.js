@@ -602,8 +602,8 @@ riyanx.pop([riyanx[0]]);
 console.log(riyanx);
 */
 
-let gg=new Array();
-for (for i=0; i<5; i++){
-  gg[i]=
+let gg= new Array(10,19,12,12,12);
+for ( let i=0; i<5; i++){
+  console.log(gg[i]);
 
 }
